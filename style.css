@@ -2,6 +2,50 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.flexxible-container {
+    display: flex;
+}
+
 .font-color {
     color: rgba(251, 162, 79, 1);
+}
+
+.top-banner {
+    width: 600px;
+    height: 234px;
+    padding-left: 8%;
+
+}
+
+.top-banner p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    color: rgba(130, 130, 130, 1);
+
+}
+
+.top-banner img {
+    width: 660px;
+    height: 750px;
+}
+
+#top-div {
+    margin-top: 8%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    font-weight: 700;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 100px;
 }
