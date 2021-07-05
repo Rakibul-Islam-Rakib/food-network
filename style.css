@@ -9,17 +9,11 @@ h1 {
     color: rgba(87, 87, 87, 1);
 }
 
-h2 {
-    font-size: 40px;
-    font-weight: 700;
-    text-align: left;
-    color: rgba(112, 112, 112, 1);
 
-}
 
 section {
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
 }
 
@@ -60,4 +54,44 @@ section {
     color: white;
     padding: 15px 40px;
     border-radius: 100px;
+}
+
+#add-background-image {
+
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+
+
+}
+
+#secound-pic {
+
+    width: 640px;
+    height: 545px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(112, 112, 112, 1);
+    margin-left: 0%;
+    margin-top: 24%;
+
+}
+
+#about-me {
+
+    width: 50%;
+    text-align: justify;
+    margin-right: 23%;
+    margin-left: 10%;
+
+}
+
+#about-me p {
+    margin-bottom: 7%;
 }
