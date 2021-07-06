@@ -134,7 +134,7 @@ section {
     border-radius: 20px;
 }
 
-h3 {
+.recipie-box h3 {
     font-size: 28px;
     font-style: normal;
     font-weight: 800;
@@ -150,4 +150,15 @@ h3 {
     padding-left: 5%;
     padding-right: 5%;
 
+}
+
+.followers {
+    box-shadow: 5px 7px 40px rgb(45, 45, 44);
+    margin: 5%;
+    border-radius: 20px;
+}
+
+.flw {
+    width: 20%;
+    margin-left: 13%;
 }
